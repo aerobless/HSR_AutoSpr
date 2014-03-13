@@ -13,7 +13,16 @@ public class PumpingLemma {
 	public static void pump(){
 		
 	}
-	
+	/**
+	 * Math2I language containing all words consisting of binary numbers
+	 * that can be divided by three. (Note for viewer: yes this could be made
+	 * much simpler, the purpose of this methods is no to answer whether a binary
+	 * can be divided by three but rather to model the deterministic-finite machine
+	 * you can see in the image file that comes with this source.
+	 *
+	 * @param input
+	 * @return
+	 */
 	public static boolean binaryDividedByThreeLanguage(String input){
 		boolean isPartOfLanguage;
 		char[] charArray = input.toCharArray();
